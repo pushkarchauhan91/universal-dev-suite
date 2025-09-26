@@ -1,0 +1,42 @@
+### GET request to example server
+GET http://localhost:8081/greet
+
+###
+POST http://localhost:8081/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "techStack": "Java, Spring Boot"
+}
+
+###
+
+
+###
+
+### GET request to example server
+GET http://localhost:8081/api/v1/software-engineers
+
+###
+
+### GET Employee by Id
+GET http://localhost:8081/api/v1/software-engineers/1
+
+###
+
+### DELETE Employee by Id
+DELETE http://localhost:8081/api/v1/software-engineers/1
+
+###
+
+### PUT Employee by Id
+PUT http://localhost:8081/api/v1/software-engineers/1
+Content-Type: application/json
+
+{
+  "name": "Pushkar",
+  "techStack": "python, c++"
+}
+
+###
